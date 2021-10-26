@@ -10,7 +10,7 @@ header{
     z-index: 5;
     background-color: #333;
 }
-header h1, a {
+header h1, header a {
     text-align: center;
     color: #fff;
     text-decoration: none;
@@ -46,9 +46,15 @@ nav a{
     text-align: center;
 }
 .box p{
-    font-size:12px;
-    padding:10px;
+    font-size:16px;
+    padding: 0px 10px 0px 15px;
+    margin-top: -10px;
 }
+.box a {
+    color: #333;
+    text-decoration: none;
+}
+
 .content{
     min-width: 100%;
     height: 98%;
@@ -98,7 +104,6 @@ nav a{
     display: inline-block;
     margin-left: 6px;
 
-    /* visual do link */
     background-color:#EDEDED;
     color: #333;
     text-decoration: none;
@@ -112,4 +117,21 @@ nav a{
     -moz-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
+}
+
+.box ul {
+    background-color:#EDEDED;
+    list-style:none;
+    width: 30%;
+    margin-left: 370px;
+}
+.box ul li a {
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+}
+.box li {
+    margin-left: -30px;
+    padding: 5px;
+    text-align: center;
 }
